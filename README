@@ -1,0 +1,21 @@
+[ React を使った CRUD デモ ]
+
+1 : Express で APIサーバーをたてる
+
+	‘‘‘
+	cd express_api
+	node app.js
+	‘‘‘
+
+	これで、localhost:3001 に、[ books~一覧 | books/:id~詳細(get),更新(post),削除(delete) ] が見れる APIサーバーがたちました。
+
+2 : React で UI を 見れるようにする
+
+	( 上記 express_api の 続き )
+	‘‘‘
+	cd ../
+	cd react_ui
+	yarn start
+	‘‘‘
+
+	の後で、localhost:3000 から、CRUD アプリデモ が 見えるようになります。
