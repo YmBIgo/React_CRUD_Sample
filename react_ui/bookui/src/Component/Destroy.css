@@ -1,0 +1,10 @@
+.book-detail-border{
+	border:1px solid rgba(100, 100, 100, .4);
+	margin-left:15px;
+	padding:10px;
+	width:350px;
+}
+.destroy-section-margin{
+	margin-left:15px;
+	margin-top:10px;
+}
